@@ -21,6 +21,8 @@ Body {
 <center>
 <h1>Welcome to Home Page</h1>
 <h1>Learner's Academy management system</h1>
+
+<h1>Welcome  <%=request.getAttribute("user")%>  To Admin Page;
 </center>
 </div>
 </div>

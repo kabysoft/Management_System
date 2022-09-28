@@ -49,7 +49,7 @@ button {
 <body>
   <center> <h1> Learner's Academy management system </h1> </center> 
     <center> <h1> Admin Login Form </h1> </center>   
-    <form action="./loginController" name="student_form" method="post" onsubmit ="return doValidation()">  
+    <form action="./SessionController" name="student_form" method="post" >  
         <div class="container">   
             <label>Username : </label>   
             <input type="text" placeholder="Enter Username" name="username" required>  
